@@ -1,6 +1,7 @@
 #include "dlib/image_processing/frontal_face_detector.h"
 #include "dlib/gui_widgets.h"
 #include "dlib/image_io.h"
+#include <opencv2/opencv.hpp>
 #include <iostream>
 
 using namespace dlib;
