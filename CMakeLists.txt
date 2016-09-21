@@ -5,7 +5,9 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 # add dlib
 include(../dlib/dlib/cmake)
-TARGET_LINK_LIBRARIES(tester dlib )
 
 # compile main.cpp
 add_executable(tester main.cpp)
+
+# link dlib
+TARGET_LINK_LIBRARIES(tester dlib )
